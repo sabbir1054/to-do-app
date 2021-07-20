@@ -71,3 +71,23 @@ body{
     justify-content: center;
     
 }
+
+/* mobile responsive */
+
+@media screen and (max-width:500px) {
+    body{
+        height: auto;
+    }
+    #to-do-app{
+        width: 90vw;
+    }
+    .middle{
+        display: block;
+    }
+    .list ul{
+        width: 80vw;
+    }
+    .list h1{
+        font-size: 30px;
+    }
+}
