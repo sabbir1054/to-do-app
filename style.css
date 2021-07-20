@@ -1,0 +1,73 @@
+body{
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:blueviolet;
+    color: white;
+    text-align: center;
+}
+
+#to-do-app{
+    background-color: #647dee;
+    padding: 20px;
+    padding-top: 10px;
+    border-radius: 20px;
+    width: 60vw;
+    
+}
+.heading h1{
+    margin: 0;
+    font-size: 4rem;
+    margin-bottom: 50px;
+}
+#task-input{
+    margin-bottom: 20px;
+    width: 50vw;
+    height: 50px;
+    border: 2px solid white;
+    outline: white;
+    font-size: 20px;
+    border-radius: 5px;
+}
+.btn{
+    font-size: 20px;
+    width: 150px;
+    height: 50px;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    background-color: blueviolet;
+    border-radius: 5px;
+    border: 2px solid white;
+    cursor: pointer;
+}
+.middle{
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    color: blueviolet;
+}
+.list{
+    background-color: rgb(255, 255, 255);
+    margin: 50px 20px;
+    
+}
+.list h1{
+    border-bottom: 2px solid blueviolet;
+}
+.list ul{
+    list-style: none;
+    width: 28vw;
+    padding-left: 0;
+}
+.list ul li{
+    font-size: 25px;
+    border-bottom: 2px solid blueviolet;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
