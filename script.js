@@ -14,9 +14,6 @@ function createTask() {
     taskList.appendChild(li);
     taskInput.value = "";
 
-    var small = document.createElement("small");
-    small.innerText = 'Tap task for complete';
-    taskList.appendChild(small);
 }
 
 
@@ -29,10 +26,6 @@ taskList.addEventListener('click', function () {
     completeEl.innerText = taskEl.innerText;
     completeEl.classList.add("complete-item");
     completeList.appendChild(completeEl);
-
-    var small = document.createElement("small");
-    small.innerText = 'Tap task for delete';
-    completeList.appendChild(small);
 })
 
 //delete complete task

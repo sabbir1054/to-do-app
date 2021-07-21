@@ -92,6 +92,7 @@ body {
 small {
     color: rgb(131, 52, 7);
     font-size: 16px;
+    margin-bottom: 50px;
 }
 
 /* mobile responsive */
