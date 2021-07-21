@@ -17,26 +17,27 @@
                     <h1>To-Do</h1>
                 </div>
                 <div class="input-task">
-                    <input type="text" name="task" id="task-input" placeholder="Put Your Task"><br>
-                    <input type="button" value="Add" id="input-btn" class="btn">
+                    <input type="text" name="task"  id="task-input" placeholder="Put Your Task"><br>
+                    <input type="button" value="Add" onclick="createTask()" id="input-btn" class="btn">
                 </div>
             </div>
             <div class="middle">
                 <div class="task-list list">
                     <h1>Task List</h1>
-                    <ul>
-                        <li>Hey</li>
+                    <ul id="task">
+                        <!-- <li>Hey</li> -->
                        
                     </ul>
                 </div>
                 <div class="complete-list list">
                     <h1>Complete Task List</h1>
-                    <ul>
-                        <li>Hey</li>
+                    <ul id="complete">
+                        <!-- <li>Hey</li> -->
                     </ul>
+                    
                 </div>
             </div>
-            <div class="middel">
+            <div class="bottom">
                 <input type="button" value="Reset" id="reset-btn" class="btn">
             </div>
         </div>
